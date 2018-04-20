@@ -4,7 +4,7 @@
     <!-- Meta Properties -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
-    <title>arras.io</title>
+    <title>xd.io</title>
     <!-- CSS -->
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet"> 
     <link rel="stylesheet" href="css/main.css" />
@@ -64,9 +64,9 @@
                     <div class="sliderHolder">
                         <div class="slider" id="startMenuSlidingContent">
                             <center><img src="/favicons/favicon-96x96.png" /></center>
-                            <h1>arras.io</h1>
+                            <h1>xd.io</h1>
                             <div id="serverName"><h4 class="nopadding">Connecting...</h4></div>
-                            <input type="text" autofocus tabindex="1" spellcheck="false" placeholder="This is the tale of:" id="playerNameInput" maxlength="24" />
+                            <input type="text" autofocus tabindex="1" spellcheck="false" placeholder="This is the tale of:" id="playerNameInput" maxlength="28" />
                         </div>
                         <div class="slider" id="startMenuSlidingTrigger"><h3 class="nopadding"><span id="viewOptionText">view options</span>&nbsp;&nbsp;<i class="arrow" id="optionArrow" style="transform:rotate(-45deg);-webkit-transform:rotate(-45deg)"></i></h3></div>
                         <div class="slider" id="startMenuSlidingContent"> 
