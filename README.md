@@ -1,5 +1,6 @@
 # xd.github.io
 A fan made sequel to diep.io
+git add script.txt 
  v\<html>
 <head>
 <base href="//static.diep.io/">
