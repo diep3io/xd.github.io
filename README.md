@@ -124,7 +124,7 @@
                                 </tr>
                             </table>
                         </div>    
-                    </div>
+                   
                     <div style="position: relative; bottom: -10px;">
                         <button id="startButton" tabindex="2">Play</button>
                     </div>
