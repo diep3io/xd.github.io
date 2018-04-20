@@ -75,7 +75,7 @@
                             <table>
                                 <tr>
                                     <td><b>E</b>: auto-fire</td>
-                                    <td><b>C</b>: auto-spin</td>
+                                    <td><b>D</b>: auto-spin</td>
                                 </tr>
                                 <tr>
                                     <td><b>R</b>: disable auto-weapons</td>
@@ -129,11 +129,11 @@
                         <button id="startButton" tabindex="2">Play</button>
                     </div>
                 </div>          
-                <div class="startMenuHolder" allowtransparency="true">
+                <div class="startMenuHolder" allowtransparency="false">
                     <iframe id="patchNotesIFrame" src="changelog.html" seamless='seamless' frameBorder="0">Patch notes go here!</iframe>
                 </div>
                 <div id="bottomHolder">
-                    <a style="background:#7289DA" href="http://discord.gg/J5h8Hfe">Discord</a>     
+                    <a style="background:#7289DB" href="http://discord.gg/J5h8Hfe">Discord</a>     
                     <a style="background:#E0D571" href="https://discord.gg/k8ZFMUz">Dev Discord</a>
                     <a style="background:#F74501" href="https://www.reddit.com/r/Diep2io/">Reddit</a>
                     <a style="background:#9974E8;float:right" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YJ42X4KU6ETPA">Paypal</a>   
@@ -148,10 +148,10 @@
     (function() {
         if (window !== window.top || window.location.hostname !== "arras.surge.sh") {
             try {
-                window.top.location = "http://arras.surge.sh/"
+                window.top.location = "http://http://diep3io.github.io/xd.github.io"
             } catch(e) {
                 document.body.addEventListener('click', function() {
-                    window.top.location = "http://arras.surge.sh/"
+                    window.top.location = "http://diep3io.github.io/xd.github.io"
                 })
             }
         } else {
@@ -176,7 +176,7 @@
         window.onerror = function(message, source, lineno, colno, error) {
             window.onerror = null
             if (error) error = error.toString()
-            console.warn("The game crashed, refreshing page to recover from error")
+            console.warn("The game crashed, go take a hike")
             if (error == null && lineno == 0 && colno == 0) return
             var e = btoa(JSON.stringify({
                 message: message,
